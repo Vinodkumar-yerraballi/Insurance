@@ -2,9 +2,9 @@
 
 Sofwares used for the Insuarance-premium-prediction
 
-1.Python[Python](https://www.python.org/)
-2.Anaconda-navigator(https://www.anaconda.com/products/distribution)
-3.Visual studio code (https://code.visualstudio.com/)
+1.[Python](https://www.python.org/)
+2.[Anaconda-navigator](https://www.anaconda.com/products/distribution)
+3.[Visual studio code ](https://code.visualstudio.com/)
 
 # Libraries used for Data preparation and modeling
 
@@ -34,13 +34,13 @@ Sofwares used for the Insuarance-premium-prediction
 "in the EDA process we understand the data, we visualize the some bargraphs,piechart and histograms etc."
 Once we done the EDA process then move to the Model buliding before we bulid the model Check the categorical columns are availbel in the data,Firstly we convert the categorical data to numerical they are different methods availbel but we used LabelEncoder the function is avilble in sklearn with the function help convert the data into numerical.Then we divided the data into input and target variabels.
 
-        Once we divided the data into input and target then split the data into train and test using the sklearn librires with the train_test function we used test data 20 % and train data 80% once divided then ready for model fit. This is regression prolem we used Regression algorithms to predict chrages. We used algorithmns in the mode such as
+  Once we divided the data into input and target then split the data into train and test using the sklearn librires with the train_test function we used test data 20 % and train data 80% once divided then ready for model fit. This is regression prolem we used Regression algorithms to predict chrages. We used algorithmns in the mode such as
          1) Linear Regression
          2) DecisionTree Regressor
          3)Raandom Forest Regressor
          4) XGB Regresssor
          5) GradientBoostingRegressor
-         One install the model then fit the model with train data and we get the prediction of the test data. then we check the model evoluation using the r2_score, along with mean_squared_error.
+      One install the model then fit the model with train data and we get the prediction of the test data. then we check the model evoluation using the r2_score, along with mean_squared_error.
          From the above algorithms the XGB and GradientBoostingRegressor is given 88% accuracy score then we save the model using the pickle, we dump the model in pickle format with high accuracy alogrithm. Then move to model deploment
 
 # Model deploment
