@@ -1,0 +1,5 @@
+pip-chill
+pandas
+Flask
+gunicorn
+Footer
