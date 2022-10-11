@@ -2,7 +2,7 @@
 
 Sofwares used for the Insuarance-premium-prediction
 
-1.Python (https://www.python.org/)
+1.Python[Python](https://www.python.org/)
 2.Anaconda-navigator(https://www.anaconda.com/products/distribution)
 3.Visual studio code (https://code.visualstudio.com/)
 
